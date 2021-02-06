@@ -1,0 +1,35 @@
+.app {
+   background-color: #E2FAFB;
+   width: 30%;
+}
+
+li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #80044d;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+
+li:before {
+    content: "►";
+    display: block;
+    float: left;
+    width: 1.2em;
+    color: #80044d;
+}
+
+.file {
+  list-style-type: "📝 ";
+}
+.folder, .rootDir {
+  font-weight: bold;
+}
+/*.nested ul {
+  display: none;
+}*/

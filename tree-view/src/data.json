@@ -1,0 +1,7 @@
+{
+   "root":{
+      "name":"Root",
+      "type":"rootDir",
+      "children":[]
+   }
+}
