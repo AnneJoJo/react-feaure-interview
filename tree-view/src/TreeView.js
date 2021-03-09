@@ -1,8 +1,6 @@
 import React from "react";
 
 export const TreeView = ({ data, className }) => {
-
-
   return (
     <React.Fragment>
       {data.map((item, idx) => (
